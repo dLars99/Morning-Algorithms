@@ -13,7 +13,7 @@ const binarySearch = (arr, target) => {
     let middle                              // Midpoint of subarray that we will check against the target
 
     // Keep searching until either a) the target is found, or b) we can no longer divide the array in half
-    while (middle !== leftPointer && middle !== rightPointer) {
+    while (arr[middle] !== target && middle <= rightPointer) {
 
         // 2. Find the midpoint of the current subarray
         middle = Math.floor((rightPointer - leftPointer) / 2)
@@ -22,10 +22,10 @@ const binarySearch = (arr, target) => {
         // 4. Move the appropriate pointer
         if (target < arr[middle]) {
             // Target is lower than our current value, so we can move the RIGHT pointer and eliminate all HIGHER values
-            rightPointer = middle
+            rightPointer = middle - 1
         } else if (target > arr[middle]) {
             // Target is higher than our current value, so we can move the LEFT pointer and eliminate all LOWER values
-            leftPointer = middle
+            leftPointer = middle + 1
         } else if (arr[middle] === target) {
             // We found our target! Set 'found' to the index of the target value.
             found = middle
