@@ -1,7 +1,6 @@
 //write function that accepts two arrays
 //function should return true if every value in the array has its corresponding value squared in the second array
 //frequency of values must be the same, but order does not matter
-// Code contributed by Sisi Freeley
 
 function same(arr1, arr2) {
     //checking to see if the length of both arrays are equal; if they're not, then automatically false

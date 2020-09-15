@@ -24,4 +24,10 @@ of "Frequency Counters"
 #### [Anagram](https://github.com/dLars99/Morning-Algorithms/tree/master/anagram/anagram.js)
 Determine if two strings are anagrams of one another using frequency counters.
 #### [Count Unique Values](https://github.com/dLars99/Morning-Algorithms/tree/master/countUniqueValues/countUniqueValues.js)
-Count the number of unique values in a sorted array.
+Count the number of unique values in a sorted array. Introduction to the concept of "Multiple Pointers."
+#### [Max Sum](https://github.com/dLars99/Morning-Algorithms/tree/master/maxSum-slidingWindow/maxSum.js)
+Given an array, find the subarray of a given size with the highest sum. Demo exercise for the "Sliding Window" concept.
+#### [Duplicates](https://github.com/dLars99/Morning-Algorithms/tree/master/duplicates/duplicates.js)
+Determine if any duplicates exist in a list of arguments.
+#### [Reverse String](https://github.com/dLars99/Morning-Algorithms/tree/master/reverseString/reverseString.js)
+Reverse the characters in a string.
