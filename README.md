@@ -18,7 +18,7 @@ So far, this repo contains code for the following concepts:
 
 #### [Binary Search](https://github.com/dLars99/Morning-Algorithms/blob/master/binary-search/binarySearch.js)
 An optimized search to find a value in a sorted array.
-#### [Frequency Counter](https://github.com/dLars99/Morning-Algorithms/blob/master/frequencyCounter/frequencyCounter.js
+#### [Frequency Counter](https://github.com/dLars99/Morning-Algorithms/blob/master/frequencyCounter/frequencyCounter.js)
 Determine if the values in one array all correspond to squares of those values in a second array. Introduction to the concept
 of "Frequency Counters"
 #### [Anagram](https://github.com/dLars99/Morning-Algorithms/tree/master/anagram/anagram.js)
