@@ -31,3 +31,5 @@ Given an array, find the subarray of a given size with the highest sum. Demo exe
 Determine if any duplicates exist in a list of arguments.
 #### [Reverse String](https://github.com/dLars99/Morning-Algorithms/tree/master/reverseString/reverseString.js)
 Reverse the characters in a string.
+#### [Average Pair](https://github.com/dLars99/Morning-Algorithms/tree/master/averagePair/averagePair.js)
+See if the average of any pair of numbers in an array matches a target average.
