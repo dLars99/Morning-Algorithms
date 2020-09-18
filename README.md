@@ -33,3 +33,5 @@ Determine if any duplicates exist in a list of arguments.
 Reverse the characters in a string.
 #### [Average Pair](https://github.com/dLars99/Morning-Algorithms/tree/master/averagePair/averagePair.js)
 See if the average of any pair of numbers in an array matches a target average.
+#### [Is A Subsequence](https://github.com/dLars99/Morning-Algorithms/tree/master/isSubsequence/isSubsequence.js)
+Determine if all the characters of the first string are present, in order, in a second string.
