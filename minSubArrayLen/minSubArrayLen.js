@@ -1,5 +1,8 @@
-// This function should return the minimal length of a contiguous subarray of which the sum is greater than
-// or equal to the integer passed to the function. If there isn't one, return 0 instead.
+/*  M I N   S U B A R R A Y   L E N G T H
+This function should return the minimal length of a contiguous subarray of which the sum is greater than
+or equal to the integer passed to the function. If there isn't one, return 0 instead.
+Time: O(n)  Space: O(1)
+*/
 
 const minSubArrayLen = (arr, target) => {
     if (arr.length < 1) return 0
