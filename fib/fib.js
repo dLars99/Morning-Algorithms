@@ -1,5 +1,5 @@
 /* F I B O N A C C I
-Find the nth degree in the fibonacci sequence
+Find the nth degree in the Fibonacci sequence
 Time: O(2^n)    Space: O(n) */
 
 
