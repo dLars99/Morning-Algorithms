@@ -1,3 +1,7 @@
+/* F I B O N A C C I
+Find the nth degree in the fibonacci sequence
+Time: O(2^n)    Space: O(n) */
+
 
 // 1. Take in an argument for the 'nth' degree
 function fib(deg) {
