@@ -37,3 +37,7 @@ See if the average of any pair of numbers in an array matches a target average.
 Determine if all the characters of the first string are present, in order, in a second string.
 #### [Min Subarray Length](https://github.com/dLars99/Morning-Algorithms/tree/master/minSubArrayLen/minSubArrayLen.js)
 Find the length of the smallest subarray within a given array whose members add to a total greater than or equal to a target integer.
+#### [Product of Array](https://github.com/dLars99/Morning-Algorithms/tree/master/productOfArray/productOfArray.js)
+Find the product of all numbers within an array using a recursive solution.
+#### [Fibonacci](https://github.com/dLars99/Morning-Algorithms/tree/master/fib/fib.js)
+Find the nth degree of the Fibonacci sequence using a recursive solution.
