@@ -1,3 +1,6 @@
+/* R E C U R S I V E   R A N G E
+Find the sum of all numbers from 0 to a given number using a recursive function.
+Time: O(n), Space: O(n)*/
 
 function recursiveRange(num) {
     // 1. Establish a base case
