@@ -8,4 +8,4 @@ function recursiveRange(num) {
 
 // SAMPLE INPUT/OUTPUT
 console.log(recursiveRange(6)) // 21
-console.log(recursiveRange(10)) // 55 
+console.log(recursiveRange(10)) // 55
