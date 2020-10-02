@@ -5,7 +5,7 @@ function reverse(str) {
     array = str.split("")
     reverseStr = []
     function reverseArray(arr) {
-        // 1. Base case""
+        // 1. Base case
         if (arr.length === 0) return
         // 2. Recursive call
         reverseStr.unshift(arr[0])
@@ -17,5 +17,11 @@ function reverse(str) {
     return reverseStr.join("")
 }
 
-console.log(reverse('awesome')) // 'emosewa'
-console.log(reverse('rithmschool')) // 'loohcsmhtir'
+function reverse2(str) {
+    if (str.length === 0) return ""
+    return str[str.length - 1] + reverse2(str.substring(0, str.length - 1))
+    // Udemy answer: return reverse2(str.slice(1)) + str[0])
+}
+
+console.log(reverse2('awesome')) // 'emosewa'
+console.log(reverse2('rithmschool')) // 'loohcsmhtir'
