@@ -1,0 +1,13 @@
+C:\Users\Laptop\workspace\morning-algorithms\csharp\averagepair\bin\Debug\netcoreapp3.1\averagepair.exe
+C:\Users\Laptop\workspace\morning-algorithms\csharp\averagepair\bin\Debug\netcoreapp3.1\averagepair.deps.json
+C:\Users\Laptop\workspace\morning-algorithms\csharp\averagepair\bin\Debug\netcoreapp3.1\averagepair.runtimeconfig.json
+C:\Users\Laptop\workspace\morning-algorithms\csharp\averagepair\bin\Debug\netcoreapp3.1\averagepair.runtimeconfig.dev.json
+C:\Users\Laptop\workspace\morning-algorithms\csharp\averagepair\bin\Debug\netcoreapp3.1\averagepair.dll
+C:\Users\Laptop\workspace\morning-algorithms\csharp\averagepair\bin\Debug\netcoreapp3.1\averagepair.pdb
+C:\Users\Laptop\workspace\morning-algorithms\csharp\averagepair\obj\Debug\netcoreapp3.1\averagepair.csprojAssemblyReference.cache
+C:\Users\Laptop\workspace\morning-algorithms\csharp\averagepair\obj\Debug\netcoreapp3.1\averagepair.AssemblyInfoInputs.cache
+C:\Users\Laptop\workspace\morning-algorithms\csharp\averagepair\obj\Debug\netcoreapp3.1\averagepair.AssemblyInfo.cs
+C:\Users\Laptop\workspace\morning-algorithms\csharp\averagepair\obj\Debug\netcoreapp3.1\averagepair.csproj.CoreCompileInputs.cache
+C:\Users\Laptop\workspace\morning-algorithms\csharp\averagepair\obj\Debug\netcoreapp3.1\averagepair.dll
+C:\Users\Laptop\workspace\morning-algorithms\csharp\averagepair\obj\Debug\netcoreapp3.1\averagepair.pdb
+C:\Users\Laptop\workspace\morning-algorithms\csharp\averagepair\obj\Debug\netcoreapp3.1\averagepair.genruntimeconfig.cache
