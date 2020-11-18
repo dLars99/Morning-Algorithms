@@ -2,6 +2,7 @@
 Constructing the data structure of the singly linked list. So far, our list includes the following methods:
     - Constructor
     - Push
+    - Pop
 */
 
 // Node class - the linked list is built of member 'Nodes'
@@ -15,6 +16,9 @@ class Node{
 }
 
 // The linked list itself, starting with a constructor to initialize an empty list
+// Head - the first item in the list
+// Tail - the last item in the list
+// Length - number of member Nodes
 class SinglyLinkedList{
     constructor(){
         this.head = null;
@@ -37,7 +41,8 @@ class SinglyLinkedList{
             this.tail = new Node(val);
             oldTail.next = this.tail;
 
-        } */
+        }
+        */
 
         // Their solution
         // 1. Instantiate a new Node
@@ -63,7 +68,7 @@ class SinglyLinkedList{
         // If no nodes, return undefined
         if (this.length === 0) return undefined;
         // Loop through until you reach the tail
-        let current= this.head;
+        let current = this.head;
         let prev;
         while (current.next !== null) {
             prev = current;
@@ -84,7 +89,59 @@ class SinglyLinkedList{
         return current.val;
     }
 
-    /* Sample code to traverse the list
+    // Shift - removing a node from the beginning of the list
+    shift() {
+        // If no nodes, return undefined
+        if (!this.head) return undefined;
+        // Store the current head in a variable
+        let currentHead = this.head;
+        // Set the head to be the current head's next node
+        this.head = currentHead.next;
+        // Decrement length
+        this.length--;
+        // If all items are removed...
+        if (this.length === 0) {
+            this.head = null;
+            this.tail = null;
+        }        
+        // Return value of removed node
+        return currentHead.val;
+    }
+
+    // Unshift - add to the beginning
+    unshift(val) {
+        // Create a new node using the value
+        const newHead = new Node(val);
+        // If there is no head, set the head and tail
+        if (!this.head) {
+            this.head = newHead;
+            this.tail = newHead;
+        } else {
+            // Set new node's next propery to the current head
+            newHead.next = this.head;
+            // Set the head to the new node
+            this.head = newHead;
+        }
+        // Increment length
+        this.length++;
+        // Return the linked list
+        return this;
+    }
+
+    // Get - retrieve a node by its position
+    get(idx) {
+        // If index is less than zero, or greater than the length, return null
+        if (idx < 0 || idx >= this.length ) return null;
+        // Loop through list until you reach the index
+        let currentNode = this.head;
+        for (let i = 0; i < idx; i++) {
+            currentNode = currentNode.next;
+        }
+        // Return node at that index
+        return currentNode;
+    }
+
+    /* Sample code to traverse the list, taken from the Udemy course
     traverse() {
         var current= this.head;
         while (current) {
@@ -102,6 +159,5 @@ list.push("HELLO")
 list.push("???")
 list.push("GOODBYE")
 list.push("!!!!")
-list.push("POP")
 
-console.log(list.pop())
+console.log(list.get(0));
