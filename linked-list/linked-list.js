@@ -141,6 +141,61 @@ class SinglyLinkedList{
         return currentNode;
     }
 
+    // Set - update the value at a given position
+    set(idx, val) {
+        // Use get to find the node
+        const theNode = this.get(idx);
+        // If the node is not found, return false
+        if (!theNode) return false;
+        // If found, update the value and return true
+        theNode.val = val;
+        return true;
+    }
+
+    // Insert - add a new node at a specific position
+    insert(idx, val) {
+        // If index is less than zero or greater than length, return false
+        if (idx < 0 || idx > this.length) return false;
+
+        // If index is same as length, push
+        if (idx === this.length) return !!this.push(val);
+
+        // If index is 0, unshift
+        if (idx === 0) return !!this.unshift(val);        
+
+        // Otherwise, use get to retrieve index - 1
+        const prev = this.get(idx - 1);
+        let newNode = new Node(val);
+        // Set next node on the new node to be the next from the previous node
+        indexNode = prev.next;
+        newNode.next = indexNode;
+        // Set the next property on the previous node to be the new node
+        prev.next = newNode;
+        // Increment length
+        this.length++;        
+        // Return true
+        return true;
+    }
+
+    // Remove - remove the node from a specific position
+    remove(idx) {
+        // If index is less than zero or greater than the length, return undefined
+        if (idx < 0 || idx >= this.length) return null;
+        // If index is same as length - 1, pop
+        if (idx === this.length - 1) return this.pop();
+        // If index is zero, shift
+        if (idx === 0) return this.shift();
+        // Otherwise, use get to find index - 1
+        const prev = this.get(idx - 1);
+        // Set the next property to be the node after the indexed node
+        const removedNode = prev.next;
+        prev.next = removedNode.next;
+        // Decrement length
+        this.length--;
+        // Return the value of the removed node
+        return removedNode.val;
+    }
+
     /* Sample code to traverse the list, taken from the Udemy course
     traverse() {
         var current= this.head;
@@ -160,4 +215,5 @@ list.push("???")
 list.push("GOODBYE")
 list.push("!!!!")
 
-console.log(list.get(0));
+console.log(list.remove(4));
+console.log(list);
