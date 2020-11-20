@@ -196,6 +196,44 @@ class SinglyLinkedList{
         return removedNode.val;
     }
 
+    // Reverse - reverse the list in place
+    reverse() {
+        // Reassign the head -- it is now the tail
+        this.tail = this.head;
+        // SLIDING WINDOW
+        // Create a current variable
+        let current = this.tail;        
+        // Create a next variable
+        let next;
+        // Create a prev variable -- set to null so we can connect the new tail to it within the while loop
+        let prev = null;
+        // Loop
+        while (current) {
+
+            // Reverse the ".next" connections
+            next = current.next;
+            current.next = prev;
+
+            // Move the window
+            prev = current;
+            current = next;
+
+        }
+        // Reassign the head property
+        this.head = prev;
+        return this;
+    }
+
+    // Print - display the linked list in the console
+    print() {
+        let current = this.head;
+        console.log(current.val)
+        while(current.next) {
+            current=current.next;
+            console.log(" --> " + current.val)
+        }
+    }
+
     /* Sample code to traverse the list, taken from the Udemy course
     traverse() {
         var current= this.head;
@@ -215,5 +253,5 @@ list.push("???")
 list.push("GOODBYE")
 list.push("!!!!")
 
-console.log(list.remove(4));
-console.log(list);
+console.log(list.reverse());
+list.print();
