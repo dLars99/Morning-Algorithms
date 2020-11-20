@@ -23,6 +23,8 @@ Determine if the values in one array all correspond to squares of those values i
 of "Frequency Counters"
 #### [Anagram](https://github.com/dLars99/Morning-Algorithms/tree/master/anagram/anagram.js)
 Determine if two strings are anagrams of one another using frequency counters.
+#### [Binary Search](https://github.com/dLars99/Morning-Algorithms/tree/master/binary-search/binarySearch.js)
+Search method to find a value in a sorted array by dividing the array into resultant halves.
 #### [Count Unique Values](https://github.com/dLars99/Morning-Algorithms/tree/master/countUniqueValues/countUniqueValues.js)
 Count the number of unique values in a sorted array. Introduction to the concept of "Multiple Pointers."
 #### [Max Sum](https://github.com/dLars99/Morning-Algorithms/tree/master/maxSum-slidingWindow/maxSum.js)
@@ -33,6 +35,7 @@ Determine if any duplicates exist in a list of arguments.
 Reverse the characters in a string.
 #### [Average Pair](https://github.com/dLars99/Morning-Algorithms/tree/master/averagePair/averagePair.js)
 See if the average of any pair of numbers in an array matches a target average.
+Also completed in [C#](https://github.com/dLars99/Morning-Algorithms/tree/master/csharp/averagepair)
 #### [Is A Subsequence](https://github.com/dLars99/Morning-Algorithms/tree/master/isSubsequence/isSubsequence.js)
 Determine if all the characters of the first string are present, in order, in a second string.
 #### [Min Subarray Length](https://github.com/dLars99/Morning-Algorithms/tree/master/minSubArrayLen/minSubArrayLen.js)
@@ -41,3 +44,7 @@ Find the length of the smallest subarray within a given array whose members add 
 Find the product of all numbers within an array using a recursive solution.
 #### [Fibonacci](https://github.com/dLars99/Morning-Algorithms/tree/master/fib/fib.js)
 Find the nth degree of the Fibonacci sequence using a recursive solution.
+#### [Recursive Range](https://github.com/dLars99/Morning-Algorithms/tree/master/recursiveRange/recursiveRange.js)
+Find the sum of all numbers from 0 to __n__ using a recursive solution.
+#### [Singly Linked Lists](https://github.com/dLars99/Morning-Algorithms/tree/master/linked-list/linked-list.js)
+Singly Linked List data structure. Constructor plus methods for push, pop, shift, unshift, get, set, insert, remove, and reverse.
